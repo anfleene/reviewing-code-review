@@ -2,70 +2,39 @@
 
 # Zuora the Zessentials
 
-!SLIDE bullets incremental transition=fade
+!SLIDE bullets incremental transition=uncover
 
 # Goals
 * Give some Zuora basics
 * Explain how Zuora interacts with Ngin
-* Zuora and Open Source
+* Zuora and the Open Source community
 
 
-!SLIDE bullets incremental transition=fade
+!SLIDE bullets incremental transition=uncover
 
 # What is Zuora?
-* .notes explain what somone would use zuora for
+
+* Subscription based billing service
+* Target market is software subscriptions
+* Built with API integration in mind
+* Solid but complex API
 
 
-!SLIDE center .notes Zuora is a huge application. Its too big to cover in 20 minutes
+!SLIDE center transition=uncover
 
-# Zuora is a very complex application
+# Zuora is a very complex
 ![It's too dangerous to go alone](../funny_images/buddy-system.jpg)
 
-!SLIDE center
+!SLIDE center transition=uncover
 
 # The Basics
 
-![I'm throwing down the gauntlet](../funny_images/cardio.jpg)
+!SLIDE bullets incremental transition=uncover
 
-* Knowlegde Center .notes add a link
-* Zuora Support .notes ditto with the link
+# Important Sources
 
-
-!SLIDE bullets incremental transition=fade
-
-# Account
-
-* Basic parent container
-* Contains client information
-* Subscriptions, Invoices, Payment Methods
-
-!SLIDE bullets incremental transition=fade
-
-# Products
-* The basic unit of things you charge for
-* Can have any number of one time or recurring charges
-
-!SLIDE bullets incremental transition=fade
-
-# Rate Plans
-
-* The unit of recurring charges
-* Contains Price
-* Rules for how the charge will be applied
-* Charges can recurr monthly, quarterly yearly, ect.
-
-!SLIDE bullets incremental transition=fade
-
-# Subscription
-
-* Contains a list of products the Account will be charged for
-* Contains the customer specific rules for how they will be charged
-* Rules determine how and when a Customer will be Invoiced
-* Most complex Item in Zuora
-* Contains the custom fields to connect it back to Ngin
+* [Zuora Knowledge Center](http://knowledgecenter.zuora.com/)
+* [Zuora Support](https://support.zuora.com/)
 
 
-!SLIDE center
 
-# Scared yet?
-![Use the buddy System](../funny_images/go-alone.jpg)

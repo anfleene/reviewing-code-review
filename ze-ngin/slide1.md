@@ -1,33 +1,32 @@
-!SLIDE center
+!SLIDE transition=uncover
 
-# ZeNgin - How Zuora Interacts with Ngin
+# Zuora & Ngin
 
-!SLIDE bullets incremental transition=fade
+!SLIDE transition=uncover
 
-# What the Zuora Basics Mean for Ngin
-* Account = Organization
-* Subscription is sort of a Site
+# ZeNgin
 
-!SLIDE bullets incremental transition=fade
+!SLIDE transition=uncover
+
+![But I am Le Tired](../funny_images/fire_ze_missiles.jpg)
+
+!SLIDE transition=uncover
 
 # Where Zuora Interacts with Ngin
 
-* Account Settings in the Site Admin
-* Quotes for new products
-
-!SLIDE bullets incremental transition=fade
+!SLIDE bullets incremental transition=uncover
 
 # Account Settings
 
-* Inovices
+* Invoices
 * Contact Information
 * Payment Methods
 
-!SLIDE bullets incremental transition=fade
+!SLIDE bullets incremental transition=uncover
 
 # Quotes
 
-* Initiated by sales through salesforce
+* Initiated by sales through Salesforce
 * Emails client to review and accept the terms
 * Collect fist payment from client
-* Alert sales person the quote has been accepted
+* Alert sales the quote has been accepted
