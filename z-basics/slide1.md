@@ -22,7 +22,7 @@
 
 !SLIDE center transition=uncover
 
-# Zuora is a very complex
+# Zuora is very complex
 ![It's too dangerous to go alone](../funny_images/buddy-system.jpg)
 
 !SLIDE center transition=uncover
