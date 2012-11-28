@@ -1,6 +1,7 @@
 !SLIDE center
 
 # Zuora the Zessentials
+[Presentation Source Code](https://github.com/anfleene/zuora-zessentials)
 
 !SLIDE bullets incremental transition=uncover
 
