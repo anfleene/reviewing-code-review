@@ -1,4 +1,5 @@
 ## Zuora Zessentials a [ShowOff presentation](http://github.com/schacon/showoff) ##
+### [View this presentation on Heroku](http://zessentials.herokuapp.com/)
 
 To run this presentation do the following:
 
