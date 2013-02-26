@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## Code Review a [ShowOff presentation](http://github.com/schacon/showoff) ##
 %%### [View on [[Heroku]]](http://zessentials.herokuapp.com/)
 
