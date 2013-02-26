@@ -1,11 +1,12 @@
-## Zuora Zessentials a [ShowOff presentation](http://github.com/schacon/showoff) ##
-### [View on Heroku](http://zessentials.herokuapp.com/)
+<<<<<<< HEAD
+## Code Review a [ShowOff presentation](http://github.com/schacon/showoff) ##
+%%### [View on [[Heroku]]](http://zessentials.herokuapp.com/)
 
 To run this presentation do the following:
 
 ```
-  git clone git://github.com/anfleene/zuora-zessentials.git
-  cd zuora-zessentials
+  git clone git://github.com/anfleene/code_review.git
+  cd code_review
   bundle
   showoff
 ```
