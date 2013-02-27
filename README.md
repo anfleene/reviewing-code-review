@@ -1,5 +1,5 @@
 ## Code Review a [ShowOff presentation](http://github.com/schacon/showoff) ##
-### [View on [[Heroku]]](http://reviewing-code-review.herokuapp.com/)
+### [View on Heroku](http://reviewing-code-review.herokuapp.com/)
 
 To run this presentation do the following:
 
