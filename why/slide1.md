@@ -1,41 +1,33 @@
 !SLIDE center
 
-# Zuora the Zessentials
-[Presentation Source Code](https://github.com/anfleene/zuora-zessentials)
+Reasons We Code Review
 
-!SLIDE bullets incremental transition=uncover
-
-# Goals
-* Give some Zuora basics
-* Explain how Zuora interacts with Ngin
-* Zuora and the Open Source community
+* Knowledge transfer among engineers.
+* It makes engineer more conscious while writing code.
+* Provides a mechanism to receive feedback to promote learning and improve code quality.
+* Bugs found early on in program development are cheaper to fix
+* Testing catches fewer bugs per hour than human inspection of code
 
 
-!SLIDE bullets incremental transition=uncover
+!SLIDE center
 
-# What is Zuora?
+Why requiring reviews for everything?
 
-* Subscription based billing service
-* Target market is software subscriptions
-* Built with API integration in mind
-* Solid but complex API
-
-
-!SLIDE center transition=uncover
-
-# Zuora is very complex
-![It's too dangerous to go alone](../funny_images/buddy-system.jpg)
-
-!SLIDE center transition=uncover
-
-# The Basics
-
-!SLIDE bullets incremental transition=uncover
-
-# Important Sources
-
-* [Zuora Knowledge Center](http://knowledgecenter.zuora.com/)
-* [Zuora Support](https://support.zuora.com/)
+Ambiguity in what needs to be reviewed could let something slide.
+By explicitly setting the expectation, everything’s much simpler. Just get it reviewed.
 
 
 
+
+
+
+
+http://kev.inburke.com/kevin/the-best-ways-to-find-bugs-in-your-code/
+
+http://bjk5.com/post/18441794352/required-code-reviews
+
+http://bjk5.com/post/3994859683/code-reviews-as-relationship-builders-a-few-tips
+
+https://sites.google.com/a/khanacademy.org/forge/for-developers/code-review-policy
+
+http://scientopia.org/blogs/goodmath/2011/07/06/things-everyone-should-do-code-review/
