@@ -11,7 +11,9 @@ What Do you Review
 * Is it decoupled well enough that it can be changed easily
 * Law of Demeter
 * Easy to comprehend
+* Maintainability
 
 # Practicality - Production readiness
 * Evaluate order of magnatude of the algorithm if it matters
 * How frequently will this code be used
+* Risk Factor
