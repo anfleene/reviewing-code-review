@@ -1,19 +1,24 @@
-What Do you Review
+!SLIDE center transition=uncover
+# What Do you Review
 
-# Syntax - You missed a semicolin
+!SLIDE bullets incremental transition=fade
+# Syntax
+* You missed a semicolin!
 * Look for obvious mistakes
-* Is it idomatic
-* The the Easy stuff
+* Is this code it idomatic?
 
 
-# Composition - Single responsibility principle
-* Is the code will organized
-* Is it decoupled well enough that it can be changed easily
-* Law of Demeter
+!SLIDE bullets incremental transition=fade
+.notes single repsonsibility principle
+.notes law of demeter
+# Composition
+* Well organized
 * Easy to comprehend
-* Maintainability
+* Sufficiently decoupled
 
-# Practicality - Production readiness
-* Evaluate order of magnatude of the algorithm if it matters
+!SLIDE bullets incremental transition=fade
+# Practicality
+* Production readiness
+* Order of magnatude of important algorithms
 * How frequently will this code be used
 * Risk Factor
