@@ -2,6 +2,9 @@
 # What Do you Review?
 
 !SLIDE center transition=uncover
+![Feng Shui](../images/sally-code-review.png)
+
+!SLIDE center transition=uncover
 # Syntax
 
 !SLIDE center transition=uncover
@@ -52,3 +55,9 @@ How frequently will this code be used
 !SLIDE center transition=uncover
 Risk Factor
 -------
+
+!SLIDE center transition=uncover
+# Ship It
+![shipit](../images/shipit.jpeg)
+!SLIDE center transition=uncover
+![Problem?](../images/no_problem.jpeg)

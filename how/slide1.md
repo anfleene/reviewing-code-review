@@ -2,6 +2,13 @@
 # How do we Review Code?
 
 !SLIDE center transition=uncover
+# Like a film critic right?
+![Rodger Ebert is in your codez](../images/code-review-ebert.jpeg)
+
+!SLIDE center transition=uncover
+# Code Review is a conversation between the Reviewee and the Reviewer
+
+!SLIDE center transition=uncover
 # Reviewees
 
 !SLIDE center transition=uncover
@@ -15,7 +22,7 @@ Pre-review your code.
 .notes Take a quick glance over your code and see if there’s anything you would push back on if you were reviewing this code and fix it before sending for review.
 
 !SLIDE center transition=uncover
-You are not the code you develop
+You are not the code you developed
 -------
 .notes Don't take review comments personaly
 .notes Think of Code Review as a peer editing your research paper
@@ -25,7 +32,7 @@ Don't take every suggestion as a mandate
 -------
 
 !SLIDE center transition=uncover
-If you feel strongly about something defend it
+If you feel strongly about something, defend it
 -------
 
 

@@ -1,12 +1,14 @@
 !SLIDE center transition=uncover
 # Reviewers
 
-!SLIDE bullets incremental transition=fade
 !SLIDE center transition=uncover
 Point out the good stuff
 -------
 .notes Pointing out good code can be just as benificial to an engineer as
 finding something wrong
+
+!SLIDE transition=uncover
+![Ofuscate](../images/code-review-positive.png)
 
 !SLIDE center transition=uncover
 Don't be afraid to review changes to code you've never seen before
@@ -23,13 +25,13 @@ Review in a timely manner
 .notes Leting a PR get stale makes it harder to release
 
 !SLIDE center transition=uncover
-Encourage discussion during review by asking questions
+Encourage discussion during review
 -------
 .notes Asking why a particular code choice was made is often better than
 dictating a change
 
 !SLIDE center transition=uncover
-Devalue code, it's cheap. It's ok to ask for a rewrite.
+Devalue code, it's cheap.
 -------
 .notes Freshly-written code can be thrown out; it happens, it should happen.
 

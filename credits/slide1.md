@@ -1,7 +1,10 @@
-!SLIDE center
+!SLIDE center transition=uncover
 # Questions, Comments, Concerns
-!SLIDE bullets
 
+!SLIDE center transition=uncover
+![FIN](../images/endcat.jpeg)
+
+!SLIDE bullets
 # More
 * [Why code review beats testing](http://kev.inburke.com/kevin/the-best-ways-to-find-bugs-in-your-code/)
 * [REQUIRED CODE REVIEWS](http://bjk5.com/post/18441794352/required-code-reviews)
