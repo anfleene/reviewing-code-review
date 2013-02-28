@@ -16,4 +16,7 @@ Academy](https://sites.google.com/a/khanacademy.org/forge/for-developers/code-re
 Review](http://scientopia.org/blogs/goodmath/2011/07/06/things-everyone-should-do-code-review/)
 
 !SLIDE center transition=uncover
-# FIN
+FIN
+-------
+
+* [Presenation Source](http://github.com/anfleene/reviewing-code-review)
