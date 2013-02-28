@@ -5,7 +5,6 @@
 # Reviewees
 
 !SLIDE center transition=uncover
-
 Smaller Pull Requests are better
 -------
 .notes It is much easier to review ten 100-line PRs than one 1000-line review.
