@@ -4,7 +4,7 @@
 !SLIDE center transition=uncover
 ![FIN](../images/endcat.jpeg)
 
-!SLIDE bullets
+!SLIDE bullets transition=uncover
 # More
 * [Why code review beats testing](http://kev.inburke.com/kevin/the-best-ways-to-find-bugs-in-your-code/)
 * [REQUIRED CODE REVIEWS](http://bjk5.com/post/18441794352/required-code-reviews)
@@ -15,6 +15,5 @@ Academy](https://sites.google.com/a/khanacademy.org/forge/for-developers/code-re
 * [Things Everyone Should Do: Code
 Review](http://scientopia.org/blogs/goodmath/2011/07/06/things-everyone-should-do-code-review/)
 
-!SLIDE
-
+!SLIDE center transition=uncover
 # FIN
