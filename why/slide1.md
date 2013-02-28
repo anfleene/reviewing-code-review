@@ -20,7 +20,7 @@ Bugs found early are cheaper to fix
 
 !SLIDE center transition=uncover
 
-Knowledge transfers among engineers
+Knowledge transfer among engineers
 ------
 
 !SLIDE center transition=uncover
