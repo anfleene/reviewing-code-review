@@ -1,1 +1,8 @@
-{ name: "Reviewing Code Review", sections: [ {section: "why"}, {section:"what"}, {section: "how"}, {section: "credits" ]}
+{ "name": "Reviewing Code Review",
+  "sections": [
+                {"section": "why"},
+                {"section": "how"},
+                {"section":"what"},
+                {"section": "credits"}
+              ]
+}
