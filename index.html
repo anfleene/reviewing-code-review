@@ -1,0 +1,232 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>Reviewing Code Review</title>
+
+  <meta name="viewport" content="width=device-width"/>
+
+  <link rel="stylesheet" href="./css/reset.css" type="text/css"/>
+  <link rel="stylesheet" href="./css/showoff.css" type="text/css"/>
+
+  <link type="text/css" href="./css/fg.menu.css" media="screen" rel="stylesheet" />
+  <link type="text/css" href="./css/theme/ui.all.css" media="screen" rel="stylesheet" />
+  <link type="text/css" href="./css/sh_style.css" rel="stylesheet" />
+
+  <script type="text/javascript" src="./js/jquery-1.4.2.min.js"></script>
+  <script type="text/javascript" src="./js/jquery.cycle.all.js"></script>
+	<script type="text/javascript" src="./js/jquery-print.js"></script>
+  <script type="text/javascript" src="./js/jquery.batchImageLoad.js"></script>
+
+  <script type="text/javascript" src="./js/jquery.doubletap-0.1.js"></script>
+
+  <script type="text/javascript" src="./js/fg.menu.js"></script>
+  <script type="text/javascript" src="./js/showoff.js"></script>
+  <script type="text/javascript" src="./js/jTypeWriter.js"> </script>
+  <script type="text/javascript" src="./js/sh_main.min.js"></script>
+  <script type="text/javascript" src="./js/core.js"></script>
+  <script type="text/javascript" src="./js/showoffcore.js"></script>
+  <script type="text/javascript" src="./js/coffee-script.js"></script>
+
+  
+    
+  
+
+  
+    
+    <link rel="stylesheet" href="./file/reviewing-code-review.css" type="text/css"/>
+  
+
+  
+
+  <script type="text/javascript">
+  $(function(){
+      setupPreso(false, './');
+  });
+  </script>
+
+</head>
+
+<body>
+
+<a tabindex="0" href="#search-engines" class="fg-button fg-button-icon-right ui-widget ui-state-default ui-corner-all" id="navmenu"><span class="ui-icon ui-icon-triangle-1-s"></span>slides</a>
+<div id="navigation" class="hidden"></div>
+<a tabindex="1" href="#search-engines" class="fg-button fg-button-icon-right ui-widget ui-state-default ui-corner-all" id="stylemenu"><span class="ui-icon ui-icon-triangle-1-s"></span>styles</a>
+<div id="stylepicker" class="hidden"></div>
+
+<div id="help">
+  <table>
+    <tr><td class="key">z, ?</td><td>toggle help (this)</td></tr>
+    <tr><td class="key">space, &rarr;</td><td>next slide</td></tr>
+    <tr><td class="key">shift-space, &larr;</td><td>previous slide</td></tr>
+    <tr><td class="key">d</td><td>toggle debug mode</td></tr>
+    <tr><td class="key">## &lt;ret&gt;</td><td>go to slide #</td></tr>
+    <tr><td class="key">c, t</td><td>table of contents (vi)</td></tr>
+    <tr><td class="key">f</td><td>toggle footer</td></tr>
+    <tr><td class="key">g</td><td>toggle follow</td></tr>
+    <tr><td class="key">r</td><td>reload slides</td></tr>
+    <tr><td class="key">n</td><td>toggle notes</td></tr>
+    <tr><td class="key">p</td><td>run preshow</td></tr>
+    <tr><td class="key">P</td><td>toggle pause</td></tr>
+    <tr><td class="key">s</td><td>choose style</td></tr>
+  </table>
+</div>
+
+<div class="buttonNav">
+  <input type="submit" onClick="prevStep();" value="prev"/>
+  <input type="submit" onClick="nextStep();" value="next"/>
+</div>
+
+<div id="preso">loading presentation...</div>
+<div id="footer">
+  <span id="followMode">Follow Mode:</span>
+  <span id="slideInfo"></span>
+  <span id="debugInfo"></span>
+  <span id="notesInfo"></span>
+</div>
+
+<div id="slides" class="offscreen" style="display:none;">
+<div class="slide" data-transition="fade"><div class="content bullets incremental" ref="why/slide1/1">
+<h1>Why do we perform Code Review</h1>
+
+<ul>
+<li>Bugs found early on in program development are cheaper to fix</li>
+<li>Knowledge transfer among engineers.</li>
+<li>Engineers are more conscious while writing code.</li>
+<li>Provides a mechanism to receive feedback and grow.</li>
+<li>Testing catches fewer bugs per hour than human inspection of code. - Code Complete</li>
+</ul></div>
+</div><div class="slide" data-transition="none"><div class="content center" ref="why/slide1/2">
+<h1>Why do we require reviews for everything?</h1>
+
+<div class="notes">
+<p>No reason to make a judgement call about what needs review</p>
+</div></div>
+</div><div class="slide" data-transition="uncover"><div class="content center" ref="how/slide1/1">
+<h1>General Tips for Reviewees</h1></div>
+</div><div class="slide" data-transition="uncover"><div class="content center" ref="how/slide1/2">
+<h1>Code Review is like peer editing a research paper.</h1></div>
+</div><div class="slide" data-transition="uncover"><div class="content center" ref="how/slide1/3">
+<h1>You are not your code, don't take review comments personaly.</h1></div>
+</div><div class="slide" data-transition="uncover"><div class="content center" ref="how/slide1/4">
+<h1>Don't take every suggestion as a mandate</h1></div>
+</div><div class="slide" data-transition="uncover"><div class="content center" ref="how/slide1/5">
+<h1>Be prepared to defend a decision</h1></div>
+</div><div class="slide" data-transition="fade"><div class="content bullets incremental" ref="how/slide1/6">
+<h1>Smaller Pull Requests are better</h1>
+
+<ul>
+<li>It is much easier to review ten 100-line PRs than one 1000-line review.</li>
+</ul></div>
+</div><div class="slide" data-transition="fade"><div class="content bullets incremental" ref="how/slide1/7">
+<h1>Pre-review your code.</h1>
+
+<ul>
+<li>Take a quick glance over your code and see if there&#x2019;s anything you would push back on if you were reviewing this code and fix it before sending for review.</li>
+</ul></div>
+</div><div class="slide" data-transition="uncover"><div class="content center" ref="how/slide2/1">
+<h1>Tips for Code Reviewers</h1></div>
+</div><div class="slide" data-transition="fade"><div class="content bullets incremental" ref="how/slide2/2">
+<h1>Point out the good stuff</h1>
+
+<ul>
+<li>Pointing out good code can be just as benificial to an engineer as
+finding something wrong</li>
+</ul></div>
+</div><div class="slide" data-transition="fade"><div class="content bullets incremental" ref="how/slide2/3">
+<h1>Don't be afraid to review changes to code you've never seen before</h1>
+
+<ul>
+<li>Just because you aren't fimilar with the way something works doesn't
+mean you aren't qualified to review a piece of code.</li>
+<li>Reviewing something new is a easy way to learn about that code</li>
+</ul></div>
+</div><div class="slide" data-transition="fade"><div class="content bullets incremental" ref="how/slide2/4">
+<h1>Review in a timely manner</h1>
+
+<ul>
+<li>It takes team-wide discipline to review in a timely manner</li>
+<li>Leting a PR get stale makes it harder to release</li>
+</ul></div>
+</div><div class="slide" data-transition="fade"><div class="content bullets incremental" ref="how/slide2/5">
+<h1>Encourage discussion during review</h1>
+
+<ul>
+<li>Asking why a particular code choice was made is often better than
+dictating a change</li>
+</ul></div>
+</div><div class="slide" data-transition="fade"><div class="content bullets incremental" ref="how/slide2/6">
+<h1>Devalue code, it's cheap</h1>
+
+<ul>
+<li>Freshly-written code can be thrown out; it happens, it should happen.</li>
+</ul></div>
+</div><div class="slide" data-transition="fade"><div class="content bullets incremental" ref="how/slide2/7">
+<h1>Favor Clarity over Cleverness</h1>
+
+<ul>
+<li>Stop early if you don&#x2019;t understand something. If you can&#x2019;t understand it as reviewer, the next casual visitor to the code definitely won&#x2019;t understand it.</li>
+</ul></div>
+</div><div class="slide" data-transition="fade"><div class="content bullets incremental" ref="how/slide2/8">
+<h1>Don&#x2019;t require perfection.</h1>
+
+<ul>
+<li>Law of deminishing returns</li>
+<li>Code wants to be shipped</li>
+</ul></div>
+</div><div class="slide" data-transition="fade"><div class="content bullets incremental" ref="how/slide2/9">
+<h1>Don't be afraid to seak another opinion</h1>
+
+<ul>
+<li>Consult style guides <a href="http://source.tstmedia.com/jsstyle">JavaScript</a>
+<a href="https://github.com/styleguide/ruby">Ruby</a>
+</li>
+<li>Bring in another developer</li>
+</ul></div>
+</div><div class="slide" data-transition="none"><div class="content" ref="what/slide1/1">
+<p>What Do you Review</p></div>
+</div><div class="slide" data-transition="none"><div class="content" ref="what/slide1/2">
+<h1>Syntax - You missed a semicolin</h1>
+
+<ul>
+<li>Look for obvious mistakes</li>
+<li>Is it idomatic</li>
+<li>The the Easy stuff</li>
+</ul></div>
+</div><div class="slide" data-transition="none"><div class="content" ref="what/slide1/3">
+<h1>Composition - Single responsibility principle</h1>
+
+<ul>
+<li>Is the code will organized</li>
+<li>Is it decoupled well enough that it can be changed easily</li>
+<li>Law of Demeter</li>
+<li>Easy to comprehend</li>
+<li>Maintainability</li>
+</ul></div>
+</div><div class="slide" data-transition="none"><div class="content" ref="what/slide1/4">
+<h1>Practicality - Production readiness</h1>
+
+<ul>
+<li>Evaluate order of magnatude of the algorithm if it matters</li>
+<li>How frequently will this code be used</li>
+<li>Risk Factor</li>
+</ul></div>
+</div><div class="slide" data-transition="none"><div class="content" ref="credits/slide1">
+<h1>Sources</h1>
+
+<ul>
+<li>http://kev.inburke.com/kevin/the-best-ways-to-find-bugs-in-your-code/</li>
+<li>http://bjk5.com/post/18441794352/required-code-reviews</li>
+<li>http://bjk5.com/post/3994859683/code-reviews-as-relationship-builders-a-few-tips</li>
+<li>https://sites.google.com/a/khanacademy.org/forge/for-developers/code-review-policy</li>
+<li>http://scientopia.org/blogs/goodmath/2011/07/06/things-everyone-should-do-code-review/</li>
+</ul></div>
+</div></div>
+<div id="pauseScreen">
+  PAUSED
+</div>
+
+</body>
+</html>
