@@ -19,5 +19,5 @@ Review](http://scientopia.org/blogs/goodmath/2011/07/06/things-everyone-should-d
 FIN
 ----
 
-### [Presenation Source](http://github.com/anfleene/reviewing-code-review)
+### [Presentation Source](http://github.com/anfleene/reviewing-code-review)
 
