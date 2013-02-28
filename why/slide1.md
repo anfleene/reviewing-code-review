@@ -30,7 +30,7 @@ Engineers are more conscious while writing code
 
 !SLIDE center transition=uncover
 
-Provides a mechanism for engeneers to receive feedback
+Provides a mechanism for engineers to receive feedback
 ------
 
 !SLIDE center transition=uncover

@@ -4,17 +4,17 @@
 !SLIDE center transition=uncover
 Point out the good stuff
 -------
-.notes Pointing out good code can be just as benificial to an engineer as
+.notes Pointing out good code can be just as beneficial to an engineer as
 finding something wrong
 
 !SLIDE transition=uncover
-![Ofuscate](../images/code-review-positive.png)
+![Obfuscate](../images/code-review-positive.png)
 
 !SLIDE center transition=uncover
 Don't be afraid to review changes to code you've never seen before
 -------
 
-.notes Just because you aren't fimilar with the way something works doesn't
+.notes Just because you aren't familiar with the way something works doesn't
 mean you aren't qualified to review a piece of code.
 .notes Reviewing something new is a easy way to learn about that code
 
@@ -22,7 +22,7 @@ mean you aren't qualified to review a piece of code.
 Review in a timely manner
 -------
 .notes It takes team-wide discipline to review in a timely manner
-.notes Leting a PR get stale makes it harder to release
+.notes Letting a PR get stale makes it harder to release
 
 !SLIDE center transition=uncover
 Encourage discussion during review
@@ -31,7 +31,7 @@ Encourage discussion during review
 dictating a change
 
 !SLIDE center transition=uncover
-Devalue code, it's cheap.
+Devalue code, it's cheap
 -------
 .notes Freshly-written code can be thrown out; it happens, it should happen.
 
@@ -41,13 +41,13 @@ Favor clarity over cleverness
 .notes Stop early if you don’t understand something. If you can’t understand it as reviewer, the next casual visitor to the code definitely won’t understand it.
 
 !SLIDE center transition=uncover
-Don’t require perfection.
+Don’t require perfection
 -------
-.notes Law of deminishing returns
+.notes Law of diminishing returns
 .notes Code wants to be shipped
 
 !SLIDE bullets transition=uncover
-Don't be afraid to seak other opinions
+Don't be afraid to seek other opinions
 -------
 * [Ruby Style Guide](https://github.com/styleguide/ruby)
 * [JavaScript Style Guide](http://source.tstmedia.com/jsstyle)

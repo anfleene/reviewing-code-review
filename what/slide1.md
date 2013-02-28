@@ -8,7 +8,7 @@
 # Syntax
 
 !SLIDE center transition=uncover
-You missed a semicolin!
+You missed a semicolon!
 -------
 
 !SLIDE center transition=uncover
@@ -16,7 +16,7 @@ Look for obvious mistakes
 -------
 
 !SLIDE center transition=uncover
-Is this code it idomatic?
+Idiomatic for the language
 -------
 
 
@@ -34,8 +34,8 @@ Easy to comprehend
 !SLIDE center transition=uncover
 Sufficiently decoupled
 -------
-.notes single repsonsibility principle
-.notes law of demeter
+.notes single responsibility principle
+.notes Law of Demeter
 
 !SLIDE center transition=uncover
 # Practicality
@@ -45,7 +45,7 @@ Production readiness
 -------
 
 !SLIDE center transition=uncover
-Order of magnatude of important algorithms
+Order of magnitude of important algorithms
 -------
 
 !SLIDE center transition=uncover
@@ -53,7 +53,7 @@ How frequently will this code be used
 -------
 
 !SLIDE center transition=uncover
-Risk Factor
+What is the risk factor
 -------
 
 !SLIDE center transition=uncover

@@ -24,7 +24,7 @@ Pre-review your code.
 !SLIDE center transition=uncover
 You are not the code you developed
 -------
-.notes Don't take review comments personaly
+.notes Don't take review comments personally
 .notes Think of Code Review as a peer editing your research paper
 
 !SLIDE center transition=uncover
