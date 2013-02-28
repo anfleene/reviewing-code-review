@@ -17,6 +17,7 @@ Review](http://scientopia.org/blogs/goodmath/2011/07/06/things-everyone-should-d
 
 !SLIDE center transition=uncover
 FIN
--------
+----
 
-* [Presenation Source](http://github.com/anfleene/reviewing-code-review)
+### [Presenation Source](http://github.com/anfleene/reviewing-code-review)
+
