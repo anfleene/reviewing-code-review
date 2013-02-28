@@ -38,12 +38,17 @@ h1 {
   color: #272e37;
   font-size: 6em;
   font-weight: bold;
+  margin-left: 2em;
+  margin-right: 2em;
 }
 
 h2 {
   color: #272e37;
   font-size: 4em;
   font-weight: bold;
+  margin-left: 1em;
+  margin-right: 1em;
+
 }
 
 .credits {
@@ -53,3 +58,4 @@ h2 {
 .credits p:last-child {
   float: right;
 }
+

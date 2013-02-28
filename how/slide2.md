@@ -7,8 +7,9 @@ Point out the good stuff
 .notes Pointing out good code can be just as beneficial to an engineer as
 finding something wrong
 
-!SLIDE transition=uncover
+!SLIDE center transition=uncover
 ![Obfuscate](../images/code-review-positive.png)
+
 
 !SLIDE center transition=uncover
 Don't be afraid to review changes to code you've never seen before
