@@ -3,7 +3,6 @@ viewstats.json
 *.rbc
 .bundle
 .config
-static
 coverage
 InstalledFiles
 lib/bundler/man
