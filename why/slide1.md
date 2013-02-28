@@ -1,7 +1,5 @@
 !SLIDE bullets incremental transition=fade
-
 # Why do we perform Code Review
-
 * Bugs found early on in program development are cheaper to fix
 * Knowledge transfer among engineers.
 * Engineers are more conscious while writing code.
@@ -10,6 +8,5 @@
 
 
 !SLIDE center
-
-Why  do we require reviews for everything?
+# Why do we require reviews for everything?
 .notes No reason to make a judgement call about what needs review
