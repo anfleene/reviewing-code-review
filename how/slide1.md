@@ -6,7 +6,7 @@
 ![Rodger Ebert is in your codez](../images/code-review-ebert.jpeg)
 
 !SLIDE center transition=uncover
-# Code Review is a conversation between the Reviewee and the Reviewer
+# Code Review is a conversation
 
 !SLIDE center transition=uncover
 # Reviewees
